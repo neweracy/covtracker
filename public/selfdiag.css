@@ -1,0 +1,36 @@
+.new-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.contain-newlink {
+    height: 100px;
+    width: 175px;
+    border: blue solid 3px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: all 0.5s;
+}
+
+.contain-newlink:hover {
+    background-color: blue;
+    border: white solid 3px;
+    border-radius: 20px;
+}
+
+.self-diag {
+    transform: translate(0%, 50%);
+}
+
+#preloader {
+    margin: 0;
+    background: white url(./0724884440e8ddd0896ff557b75a222a.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

@@ -1,0 +1,103 @@
+/*#3f51b5*/
+
+.main {
+    margin-top: 30px;
+}
+
+.change {
+    color: red;
+}
+
+.head {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 65px;
+    color: #3f51b5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.card {
+    width: 250px;
+    /* background-color: rgb(127, 136, 113);*/
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    /*border-radius:  50px ;*/
+    transition: width 0.2s linear;
+    box-shadow: 5px 5px 10px rgb(138, 128, 128);
+}
+
+.card:hover {
+    width: 300px;
+}
+
+.snd-head {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #3f51b5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.club {
+    height: 50px;
+    /* background-color: rgb(107, 185, 143);*/
+    /*border-radius: 20px 0px 20px 0px;*/
+    color: #3f51b5;
+    font-size: 35px;
+    font-style: italic;
+    border: white solid 2px;
+}
+
+.dat {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    justify-content: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}
+
+.lowerborder {
+    height: 10px;
+    margin: 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.lb1 {
+    background-color: rgb(165, 33, 33);
+}
+
+.lb2 {
+    background-color: rgb(8, 168, 8);
+}
+
+.lb3 {
+    background-color: rgb(92, 88, 88);
+}
+
+
+/*@media only screen and (max-width: 450px) {
+    .hel {
+      height: 100px;
+      width: 300px;
+    }
+}*/

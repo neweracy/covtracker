@@ -1,0 +1,44 @@
+.mad {
+    display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.remap{
+    height: 800px;
+    width: 850px;
+    border: #3f51b5 solid 5px;
+
+}
+
+.ass-main {
+  
+
+ 
+  border-radius: 20px;
+  justify-content: center;
+}
+/*.prick-sub {
+  flex: 4;
+  margin-top: 100px;
+ 
+
+  border: #3f51b5 solid 5px;
+  border-radius: 20px;
+  justify-content: center;
+}*/
+@media only screen and (min-width: 1920px) {
+  .prick-sub {
+    height: 700px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .prick-sub {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .prick-sub {
+    height: 600px;
+  }
+}

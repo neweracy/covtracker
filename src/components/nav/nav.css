@@ -1,0 +1,41 @@
+/*#3f51b5*/
+
+
+
+
+.mains{
+    height: 75px;width: 100%;
+    
+    background-color: #3f51b5;
+    border-radius: 7px;
+    box-shadow: 5px 7px 8px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 3;
+}
+.log{
+    text-transform: uppercase;
+    margin: 23px 20px  ;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    
+}
+.other{
+    margin:  10px 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
+.him{
+    height: 90px;
+    width: 9px;
+}

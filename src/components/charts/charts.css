@@ -1,0 +1,59 @@
+.charts {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.bar {
+ flex: 4;
+  margin-top: 100px;
+  height: 950px;
+  width: 850px;
+
+  border: #3f51b5 solid 5px;
+  border-radius: 20px;
+}
+@media only screen and (min-width: 451px) {
+    .bar {
+      height: 600px;
+      width: 750px;
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+    .bar {
+      height: 800px;
+      width: 100%px;
+    }
+  }
+@media only screen and (max-width: 450px) {
+  .bar {
+    height: 500px;
+    width: 300px;
+  }
+  .date h2{
+    font-size: smaller;
+    margin-right: 10.6px;
+  }
+  .date{
+    text-align: right;
+    color: #3f51b5;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: smaller;
+  }
+  
+}
+.chat{
+  text-align: center;
+  color: #3f51b5;
+}
+.date{
+  text-align: right;
+  color: #3f51b5;
+  margin: 10px;
+  text-transform: capitalize;
+}
+.date h2{
+  margin-right: 10.6px;
+}
+

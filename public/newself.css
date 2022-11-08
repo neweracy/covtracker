@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.main {
+    transform: translate(20%, 20%);
+    margin: 10px;
+    height: 100%;
+    width: 45%;
+    border: blue solid 5px;
+}
