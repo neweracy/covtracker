@@ -26,10 +26,10 @@ A comprehensive COVID-19 tracking dashboard built with React that provides real-
 
 ## Technology Stack
 
-- **Frontend**: React
-- **Charts**: Chart.js with React-ChartJS-2
-- **Maps**: Mapbox GL with React-Map-GL
-- **Styling**: Bootstrap + React Bootstrap
+- **Frontend**: React 17.0.2
+- **Charts**: Chart.js 3.4.1 with React-ChartJS-2
+- **Maps**: Mapbox GL 2.3.1 with React-Map-GL
+- **Styling**: Bootstrap 5.0.2 + React Bootstrap
 - **HTTP Client**: Axios for API requests
 - **Routing**: React Router DOM
 - **Icons**: FontAwesome React
